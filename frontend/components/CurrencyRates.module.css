@@ -1,0 +1,48 @@
+.wrapper {
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: none;
+}
+
+.title {
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #222;
+    font-weight: bold;
+    text-align: center;
+    width: 50%;
+}
+
+.table {
+    width: 50%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+.table th,
+.table td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.table th {
+    background: #f0f4ff;
+    font-weight: bold;
+    color: #1b2f70;
+}
+
+.table tr:hover {
+    background: #f6f8ff;
+}
+
+.loading {
+    text-align: center;
+    color: #444;
+    font-size: 16px;
+}
